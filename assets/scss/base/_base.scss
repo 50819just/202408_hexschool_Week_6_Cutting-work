@@ -1,0 +1,235 @@
+/* font */
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+a:hover {
+	text-decoration: none;
+	color: inherit;
+}
+
+
+a:active {
+	color: inherit;
+}
+
+
+.roboto-r {
+	font-family: "Roboto", sans-serif;
+	font-style: normal;
+	text-decoration: none;
+}
+
+.fs-14 {
+	font-size: 14px;
+}
+
+.fs-16 {
+	font-size: 16px;
+}
+
+.fs-20 {
+	font-style: 20px;
+}
+
+.fs-24 {
+	font-size: 24px;
+}
+.fs-32 {
+	font-size: 32px;
+}
+.fs-36 {
+	font-size: 36px;
+}
+
+.fs-42 {
+	font-size: 42px;
+}
+
+
+.fs-48 {
+	font-size: 48px;
+}
+
+.fs-64 {
+	font-size: 64px;
+}
+
+@media (max-width:576px) {
+	.fs-64 {
+		font-size: 24px;
+	}
+	.fs-48 {
+		font-size: 24px;
+	}
+	.fs-36 {
+		font-size: 16px;	
+	}
+	
+}
+
+/* color */
+.color-red_650300 {
+	color: #650300;
+}
+
+/* #AA0601 */
+.color-red_AA0601 {
+	color: #AA0601;
+}
+
+/* #707070 */
+.color-gary_707070 {
+	color: #707070;
+}
+
+.color-red_650300 {
+	color: #650300;
+}
+
+
+
+.color-while {
+  color: $while-fff;
+}
+.color-black{
+	color: $black-000;
+}
+
+
+
+/* m-d */
+.m-t-8 {
+	margin-top: 8px;
+}
+
+.m-t-16 {
+	margin-top: 16px;
+}
+
+.m-t-24 {
+	margin-top: 24px;
+}
+
+.m-r-24 {
+	margin-right: 24px;
+}
+
+.m-b-24 {
+	margin-bottom: 24px;
+}
+
+.m-b-72 {
+	margin-bottom: 72px;
+}
+
+.m-right-22 {
+	margin-right: 22px;
+}
+
+.m-left-32 {
+	margin-left: 32px;
+}
+
+.m-left-48 {
+	margin-left: 48px;
+}
+
+.m-b-80 {
+	margin-bottom: 80px;
+}
+
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900 */
+
+.noto-sans {
+	font-family: "Noto Sans TC", sans-serif;
+	font-optical-sizing: auto;
+	font-style: normal;
+	text-decoration: none;
+}
+
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 200 to 900
+// 思源頌體
+.noto-serif-tc {
+  font-family: "Noto Serif TC", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* font-weight */
+.font-weight-bold {
+	font-weight: bold;
+}
+
+.font-weight-medium {
+	font-weight: 500;
+}
+
+.fw600{
+	font-weight: 600;
+}
+.fw700{
+	font-weight: 700;
+}
+
+/* modle */
+.container {
+	width: 1296px;
+	margin: 0 auto;
+	padding-left: 12px;
+	padding-right: 12px;
+}
+
+/* RWD */
+
+@media(max-width:992px) {
+	.container {
+		max-width: 720px;
+	}
+}
+
+@media (max-width:768px) {
+	.container {
+		max-width: 372px;
+	}
+}
+
+/* RWD 格線 斷點 */
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: -12px;
+	margin-right: -12px;
+}
+
+.col-3 {
+	width: 25%;
+	padding-right: -12px;
+	padding-left: -12px;
+}
+
+@media(max-width:992px) {
+	.col-md-3 {
+		width: calc(50%);
+	}
+}
+
+@media(max-width:576px) {
+	.col-sm-12 {
+		width: 100%;
+	}
+}
+
+/* modle */
+img {
+	max-width: 100%;
+	height: auto;
+	vertical-align: middle;
+}
+.text-align-center{
+	text-align: center;
+}
