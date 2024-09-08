@@ -21,6 +21,10 @@ a:active {
 	text-decoration: none;
 }
 
+.fs-12 {
+	font-size: 12px;
+}
+
 .fs-14 {
 	font-size: 14px;
 }
@@ -32,16 +36,29 @@ a:active {
 .fs-20 {
 	font-style: 20px;
 }
-
+.fs-22 {
+	font-style: 22px;
+}
 .fs-24 {
 	font-size: 24px;
 }
+
+.fs-24_nosm {
+	font-size: 24px;
+}
+
 .fs-32 {
 	font-size: 32px;
 }
+
 .fs-36 {
 	font-size: 36px;
 }
+
+.fs-40 {
+	font-size: 40px;
+}
+
 
 .fs-42 {
 	font-size: 42px;
@@ -51,6 +68,10 @@ a:active {
 .fs-48 {
 	font-size: 48px;
 }
+.fs-56 {
+	font-size: 56px;
+}
+
 
 .fs-64 {
 	font-size: 64px;
@@ -60,13 +81,30 @@ a:active {
 	.fs-64 {
 		font-size: 24px;
 	}
+
 	.fs-48 {
 		font-size: 24px;
 	}
-	.fs-36 {
-		font-size: 16px;	
-	}
+
 	
+	.fs-40 {
+		font-size: 28px;
+	}
+
+	.fs-36 {
+		font-size: 16px;
+	}
+	.fs-32 {
+		font-size: 24px;
+	}
+	.fs-24 {
+		font-size: 16px;
+	}
+
+	.fs-20{
+		font-size: 16px;
+	}
+
 }
 
 /* color */
@@ -91,9 +129,10 @@ a:active {
 
 
 .color-while {
-  color: $while-fff;
+	color: $while-fff;
 }
-.color-black{
+
+.color-black {
 	color: $black-000;
 }
 
@@ -151,13 +190,15 @@ a:active {
 }
 
 
+
+
 // <uniquifier>: Use a unique and descriptive class name
 // <weight>: Use a value from 200 to 900
 // 思源頌體
 .noto-serif-tc {
-  font-family: "Noto Serif TC", serif;
-  font-optical-sizing: auto;
-  font-style: normal;
+	font-family: "Noto Serif TC", serif;
+	font-optical-sizing: auto;
+	font-style: normal;
 }
 
 /* font-weight */
@@ -169,11 +210,18 @@ a:active {
 	font-weight: 500;
 }
 
-.fw600{
+.fw600 {
 	font-weight: 600;
 }
-.fw700{
+
+.fw700 {
 	font-weight: 700;
+}
+.fw-bold{
+	font-weight: bold;
+}
+.fw-nomal{
+	font-weight: normal;
 }
 
 /* modle */
@@ -230,6 +278,7 @@ img {
 	height: auto;
 	vertical-align: middle;
 }
-.text-align-center{
+
+.text-align-center {
 	text-align: center;
 }

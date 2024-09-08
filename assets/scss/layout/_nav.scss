@@ -1,12 +1,13 @@
 .nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .nav-item-n {
   display: flex;
   padding: 8px 20px;
   justify-content: center;
+  margin-bottom: 0px;
   align-items: center;
 }
 
@@ -18,19 +19,21 @@
   width: 24px;
   height: 24px;
 }
+.logo-serch{
+  display: flex;
+}
 
 .nav-login {
   padding: 16px 24px;
   justify-content: center;
   align-items: center;
-}
-
-
-.nav-login {
-  background-color: $green-569573;
+  background-color: $Accent-200;
   border-radius: 100px;
   color: $while;
+  border: 0px;
+  border-color: none;
 }
+
 
 
 
@@ -67,9 +70,53 @@
 .nav-input {
   padding-right: 40px;
 }
+@media (max-width:768px){
+  .nav-login {
+    padding: 16px 145px;
+    justify-content: center;
+    align-items: center;
+    background-color: $Accent-200;
+    border-radius: 100px;
+    color: $while;
+  }
+  .nav-item-n {
+    align-items: start;
+    display: flex;
+    padding: 8px 20px;
+    margin-bottom: 10px;
+    justify-content: center;
+  }
+  .nav-input {
+    width: 365px;
+    padding: 12px 20px;
+    border-radius: 100px;
+    border: 1px solid $gary-DEE2E6;
+    background:$while;
+  }
 
+}
 @media (max-width:576px) {
-  .nav-serch{
-    display: none;
+  .nav-login {
+    padding: 16px 145px;
+    justify-content: center;
+    align-items: center;
+    background-color: $Accent-200;
+    border-radius: 100px;
+    color: $while;
+  }
+  .nav-item-n {
+    align-items: start;
+    display: flex;
+    padding: 8px 20px;
+    margin-bottom: 10px;
+    justify-content: center;
+  }
+  
+  .nav-input {
+    width: 365px;
+    padding: 12px 20px;
+    border-radius: 100px;
+    border: 1px solid $gary-DEE2E6;
+    background:$while;
   }
 }
